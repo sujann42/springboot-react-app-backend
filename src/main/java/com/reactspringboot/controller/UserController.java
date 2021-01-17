@@ -15,6 +15,8 @@ import com.reactspringboot.repo.UserRepository;
 @RestController
 public class UserController {
 	
+	//Sample controller
+	
 	@GetMapping("test")
 	public String testApi() {
 		return "This is just a test!!!!!";
